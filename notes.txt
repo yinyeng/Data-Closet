@@ -8,7 +8,7 @@ Task List
 Video Resources:
 - [How To Make Clickable SVG Map HTML & CSS] https://www.youtube.com/watch?v=6C-GYwxdZd4&ab_channel=TSNsoft
 - [Clickable Interactive map tutorial - building & designing for BEGINNERS - HTML, CSS, JS] https://www.youtube.com/watch?v=WMqB8sVOCtk&t=113s&ab_channel=AnastasiaAntonova
-
+- [embed excel into site] https://www.youtube.com/watch?v=7OcN1q6NiHQ&t=130s
 
 Code Resources:
 - https://codepen.io/ArtofSemiology/pen/MWJOpBg
