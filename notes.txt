@@ -1,0 +1,15 @@
+Task List
+
+- add svg
+- link location names
+- location name when hovered
+- add pop up screen to data closet sheet
+
+Video Resources:
+- [How To Make Clickable SVG Map HTML & CSS] https://www.youtube.com/watch?v=6C-GYwxdZd4&ab_channel=TSNsoft
+- [Clickable Interactive map tutorial - building & designing for BEGINNERS - HTML, CSS, JS] https://www.youtube.com/watch?v=WMqB8sVOCtk&t=113s&ab_channel=AnastasiaAntonova
+
+
+Code Resources:
+- https://codepen.io/ArtofSemiology/pen/MWJOpBg
+- https://codepen.io/marine-fraysse/pen/eYmBEvQ
