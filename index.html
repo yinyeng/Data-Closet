@@ -10,20 +10,6 @@
     <h1>This is a Heading</h1>
     <p>This is a paragraph.</p>
 
-
-    <button data-modal-target="#modal">Open Modal</button>
-    <div class="modal" id="modal">
-      <div class="modal-header">
-        <div class="title">Example Modal</div>
-        <button data-close-button class="close-button">&times;</button>
-      </div>
-      <div class="modal-body">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod alias ut illo doloremque eum ipsum obcaecati distinctio debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus, consectetur quisquam accusamus ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem at ad autem dolor ex aperiam. Amet assumenda eos architecto, dolor placeat deserunt voluptatibus tenetur sint officiis perferendis atque! Voluptatem maxime eius eum dolorem dolor exercitationem quis iusto totam! Repudiandae nobis nesciunt sequi iure! Eligendi, eius libero. Ex, repellat sapiente!
-      </div>
-    </div>
-    <div id="overlay"></div>
-
-
     <div class = "mapdiv">
       <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 760.2 590">
@@ -431,9 +417,8 @@
   </g>
 
   <g id="building" data-name="building">
-    <a xlink:title= "Trinity Church" xlink:href=" ">
-      <polygon class="cls-233" points="648 470.76 646.57 477.91 652.35 478.85 653.66 471.69 648 470.76"/>
-      
+    <a xlink:title= "Trinity Church" xlink:href="" >
+      <polygon class="cls-233 Trinity Church" points="648 470.76 646.57 477.91 652.35 478.85 653.66 471.69 648 470.76"/>
       </a>
       <a xlink:title= "Jamie L. Roberts Stadium" xlink:href=" ">
           <polygon class="cls-233" points="279.69 110.67 278.19 110.65 278.22 107.08 269.19 106.99 269.15 110.56 267.65 110.55 267.3 144.4 268.8 144.41 268.77 147.99 277.8 148.08 277.84 144.51 279.34 144.52 279.69 110.67"/>
@@ -532,7 +517,7 @@
       
       </a>
       <a xlink:title= "ARC" xlink:href=" ">
-          <polygon class="cls-233" points="344.73 300.99 342.09 284.19 333.7 285.51 333.89 286.72 333.16 286.83 332.68 283.78 334.57 283.48 330.5 257.62 330.49 257.62 330.28 256.3 326.66 256.87 326.86 258.19 317.93 259.59 317.72 258.25 315.01 258.68 315.22 260.02 315.19 260.02 319.25 285.89 322.46 285.38 323.13 289.71 322.64 289.78 322.45 288.55 313.72 289.92 313.93 288.76 311.71 288.36 312.05 286.44 299.54 284.17 299.19 286.09 298.08 285.89 295.03 302.7 296.14 302.91 295.5 306.45 294.73 306.31 293.22 314.66 300.79 316.03 301.27 313.37 306.99 314.4 307.52 311.49 321.76 309.25 323.24 318.7 341.96 315.76 339.76 301.78 344.73 300.99"/>
+          <polygon class="cls-233 ARC" points="344.73 300.99 342.09 284.19 333.7 285.51 333.89 286.72 333.16 286.83 332.68 283.78 334.57 283.48 330.5 257.62 330.49 257.62 330.28 256.3 326.66 256.87 326.86 258.19 317.93 259.59 317.72 258.25 315.01 258.68 315.22 260.02 315.19 260.02 319.25 285.89 322.46 285.38 323.13 289.71 322.64 289.78 322.45 288.55 313.72 289.92 313.93 288.76 311.71 288.36 312.05 286.44 299.54 284.17 299.19 286.09 298.08 285.89 295.03 302.7 296.14 302.91 295.5 306.45 294.73 306.31 293.22 314.66 300.79 316.03 301.27 313.37 306.99 314.4 307.52 311.49 321.76 309.25 323.24 318.7 341.96 315.76 339.76 301.78 344.73 300.99"/>
       
       </a>
       <a xlink:title= "Learning Commons" xlink:href=" ">
@@ -1233,6 +1218,22 @@
 
 </svg>
     </div>
+
+    <!--<button class="button" href="#" onclick="show('popup')">Button</button>-->
+
+    <!-- This is what will be included inside the popup -->
+    <dialog class="modal" id="modal">
+      <h2>An interesting title</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse nisi, laboriosam illum temporibus ipsam?</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, quo.</p>
+      <button class="button close-button">close modal</button>
+      <form class="form" method="dialog">
+        <label>Your name <input type="text"></label>
+        <label>Your email <input type="email"></label>
+        <button class="button" type="submit">submit form</button>
+      </form>
+    
+    </dialog>
 
 
 </body>
